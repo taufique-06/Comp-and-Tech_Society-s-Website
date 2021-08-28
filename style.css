@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.custom-shape-divider-top-1629840737 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+    
+}
+
+.custom-shape-divider-top-1629840737 svg {
+    position: relative;
+    display: block;
+    width: calc(412% + 1.3px);
+    height: 650px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1629840737 .shape-fill{
+    fill: #011854;
+}
+
+#card-bg {
+    background-color: #011854;
+    border: none;
+    color: black;
+}
+
+.card-text {
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+.fade-in-fwd {
+    -webkit-animation: fade-in-fwd 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-fwd 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.users {
+    margin-top: -15rem;
+    margin-right: 10rem;
+    color: #CA4246;
+    font-family: lobster;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#greenwich__logo {
+    /*margin-top: -20px;*/
+    /*margin-left: 10rem;*/
+}
+
+.first__title {
+    margin-top: 12%;
+    text-align: center;
+}
+
+
+.videoContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 60%;
+}
+
+.goal {
+    background-color: #262F36;
+    height: 450px;
+    color: white;
+    margin-top: -15%;
+    /*padding-top: 5%;*/
+}
+
+
+.app-code {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: #3F6075;
+}
