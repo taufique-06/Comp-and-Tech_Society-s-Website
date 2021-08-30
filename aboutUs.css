@@ -166,3 +166,74 @@ header h1 {
     background-color: #161925;
     color: white;
 } 
+
+
+
+/*Making website Responsive starts here */
+
+@media screen and (max-width: 320px) and (min-width: 100px) {
+
+
+.display-4 {
+    margin-top: -30%;
+}
+
+.lead {
+    margin: 25px;
+}
+
+
+}
+
+@media screen and (max-width: 375px ) and (min-width: 321px) {
+
+ 
+.display-4 {
+
+    margin-top: -10%;
+}
+
+.lead {
+    margin: 30px;
+}
+
+.heartbeat {
+    text-align: center;
+}
+
+
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px) {
+
+.heartbeat {
+    text-align: center;
+}
+
+ 
+.display-4 {
+
+    margin-top: -10%;
+}
+}
+
+@media screen and (max-width: 767px) and (min-width: 430px) {
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+
+
+
+
+
+}
+
+
+
+
+/*Making website Responsive ends here */

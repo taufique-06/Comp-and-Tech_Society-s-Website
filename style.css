@@ -42,7 +42,7 @@ html {
     width: 400px;
     color: white;
     text-align: center;
-    font-family: cursive;
+    /*font-family: cursive;*/
 }
 
 .fade-in-fwd {
@@ -252,7 +252,7 @@ html {
 }
 
 .first__title {
-    margin-top: 50%;
+    margin-top: 55%;
 }
 
 .card-text {
@@ -297,24 +297,24 @@ html {
 .name {
 
     padding-bottom: 10px;
+    position: relative;
+    left: -12%;
 }
 
 .first__title {
-    margin-top: 40%;
+    margin-top: 45%;
 }
 
 .card-text {
-    width: 250px;
+    width: 300px;
+    padding-top: 10%;
 }
 
 .last__section {
     height: 500px;
 }
 
-.name {
-    position: relative;
-    left: -20%;
-}
+
 
 
 }
@@ -339,13 +339,18 @@ html {
     height: 630px;
 }
 
-.name {
-
-    padding-bottom: 10px;
-}
-
 .first__title {
     margin-top: 35%;
+}
+
+.card-text {
+    width: 300px;
+
+}
+
+.name {
+    position: relative;
+    left: -10%;
 }
 
 }
